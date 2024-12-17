@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2258a8;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.header-left img, .header-right img {
+    width: 100px;
+    height: auto;
+}
+
+.header-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-center h1 {
+    font-size: 45px;
+    color: #f8f3f3;
+    margin: 0;
+}
+
+.header-center h3 {
+    font-size: 1.2rem;
+    color: #20e1c1;
+    margin-top: 5px;
+}
+
+/* Form Section */
+.student-form, .student-table {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background: #abeff0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #47d79d;
+    color: #05181a;
+}
+
+/* Submit Button at the Bottom */
+.submit-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #4563a0;
+}
